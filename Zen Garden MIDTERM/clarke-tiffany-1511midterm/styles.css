@@ -1,0 +1,174 @@
+/*load normalize cdn*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+/*load font awesome*/
+@import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Bangers|Oleo+Script|Rokkitt');
+/*End of fonts*/
+
+.intro h1:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f042";
+}
+
+/*
+Table Of Contents
+1. Body Box Layout
+2. Header Layout
+3.Paragraph Styles
+4.Links
+5. Sidebar
+6. Wrap
+7. Footer
+8. End Of Code Note
+Fonts are placed above in @import section
+*/
+
+/*body box layout*/
+body {
+	background-image: url("images/bgmain.jpg");
+	background-color: #dea9c8;
+	background-position: 95%;
+}
+
+.summary, .preamble, .explanation, .participation, .benefits, .requirements {
+	float: right;
+	width: 440px;
+  	border: 15px solid teal;
+ 	padding:30px;
+  	margin: 10px;
+  	background-color: #d9e28d;
+}
+
+.summary p:first-child {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+/*Header*/
+header {
+	text-align: center;
+	margin: 5px;
+	background-image: url("images/soda3.jpg"); 
+	height: 525px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-repeat: no-repeat;
+	position: relative; 
+	padding: 15px;
+}
+
+h1 {
+	text-align:  right;
+	font-family: 'Bangers', Broadway, Arial-Bold, cursive;
+	letter-spacing: 9px;
+	font-size: 7em;
+	color: #2e1c27;
+	padding-left: 15px;
+	text-shadow: 0 0 40px #d9e28d;
+}
+
+h2 {
+	font-family: 'Oleo Script', Constantia, Georgia, Rockwell,  cursive;
+	font-size: 4em;
+	color: #2e1c27;
+	padding: 15px;
+	text-shadow: 0 0 20px #d9e28d;
+}
+
+/*psragraph styels*/
+h3 {
+	font-family: 'Oleo Script', Constantia, Georgia, Rockwell,  cursive;
+	font-size: 1.25em;
+	color: #2e1c27;
+}
+
+p {
+	font-family: 'Rokkitt', Courier-New, Arial,  serif;
+	letter-spacing: 1.25px;
+	font-size: 1em;
+
+}
+
+.preamble h3:first-letter, .explanation h3:first-letter, .participation h3:first-letter, .benefits h3:first-letter,.requirements h3:first-letter
+ {
+	font-size: 2em;
+}
+
+.explanation p {
+	font-size: 1.75em;
+}
+
+.explanation h3 {
+	font-size: 2.5em;
+}
+
+/*links*/
+a {
+	text-decoration: none;
+	color: green;
+}
+
+a:hover {
+	color: #2e1c27;
+}
+
+ul {
+  list-style-type: none;
+  font-family: 'Oleo Script', Constantia, Georgia, Rockwell,  cursive;
+  font-weight: 2px;
+  margin: 0;
+  padding: 2px;
+  font-size: 1em;
+  line-height: 1.35;
+}
+ul li a:last-child {
+	font-size: 0.75em;
+}
+
+/*sidebar*/
+.sidebar {
+	position: fixed;
+	width: 200px;
+	z-index: 1;
+	top: 0;
+	margin: 0;
+  	padding: 20px;
+  	background-image: url("images/sidebg.jpg");
+  	background-position: 50%;
+  	background-color: #f0bd8b;
+  	border: 5px solid #2e1c27;
+  	height: 100%;
+  	overflow: auto;
+}
+
+.select, .archives, .resources {
+	box-shadow: 3px 8px #2e1c27;
+	font-size: 1.25em;
+}
+
+/*Wrap*/
+.page-wrapper {
+	width: 1350px;
+	height: 300px;
+	margin: auto;
+	padding-bottom: 5px
+}
+
+/*footer*/
+footer {
+	text-align: center;
+	font-size: 0.75em;
+	float: right;
+	width: 78%;
+ 	padding:10px;
+  	margin: 5px;
+  	border: 5px solid teal;
+  	background-color: #d9e28d;
+}
+
+/*End Of Code Note
+I feel I have improved a lot since my first web design assignment but still need practice. 
+I am still learning and have grown a lot, thanks to your class, W3 Schools, and many video tutorials. 
+So I hope you take that into consideration when grading. I also hope you enjoy my site style. 
+I am looking forewaed to hearing your comments and suggestions. */
